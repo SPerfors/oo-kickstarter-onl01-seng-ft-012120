@@ -6,4 +6,8 @@ class Backer
     @backed_projects = []
   end
   
+  def back_project 
+    @backed_projects << Project.new 
+  end
+  
 end
